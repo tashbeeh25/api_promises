@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Greetings Card</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script defer src="javascript.js"></script>
+  </head>
+  <body>
+    <form id="myform">
+        <label for="greeting">Greeting</label><br>
+        <input type="text" id="greeting" name="Your Greeting" placeholder="It's Your Birthday"><br><br>
+        <label for="event">Choose an event:</label>
+        <select id="event" name="events">
+          <option value="Birthday">Happy Birthday!</option>
+          <option value="Christmas">Happy Christmas!</option>
+          <option value="Halloween">Happy Halloween</option>
+          <option value="New Years">Happy New Year!</option>
+        </select> <br><br>
+        <label for="message">Message</label><br><br>
+        <textarea id="message" name="message"></textarea><br><br>
+        <input type="submit" value="Submit">
+      </form>
+      <div class="card">
+        <div class="container">
+          <h4 id="#greet"><b></b></h4> 
+          <p id="#event"></p>
+          <p id="#info"></p> 
+          <img id="img"></img>
+        </div>
+      </div>
+  </body>
+</html>
